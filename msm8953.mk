@@ -291,7 +291,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libprotobuf-cpp-full
 
-
 # Qualcomm
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
