@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
     init.mmi.usb.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sensors.sh \
     init.qcom.sh \
     init.qti.qseecomd.sh \
     init.hidl.sensor.rc \
