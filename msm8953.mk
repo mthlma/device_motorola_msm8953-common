@@ -342,10 +342,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
     
-# Touch 
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.msm8953
-    
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
