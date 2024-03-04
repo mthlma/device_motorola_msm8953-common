@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio.effect@4.0-impl \
     android.hardware.audio.effect@2.0-service \
+    audio.primary.msm8953 \
     audiod \
     audio.a2dp.default \
     audio.r_submix.default \
@@ -168,10 +169,8 @@ PRODUCT_PACKAGES += \
     init.mmi.usb.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sensors.sh \
     init.qcom.sh \
     init.qti.qseecomd.sh \
-    init.hidl.sensor.rc \
     init.mmi.chipset.rc \
     init.mmi.overlay.rc \
     init.mmi.usb.rc \
@@ -329,8 +328,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-impl
 
 # Shims
 PRODUCT_PACKAGES += \

@@ -39,3 +39,11 @@ LOCAL_MODULE := libcutils_shim
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := justshoot_shim.cpp
+LOCAL_SHARED_LIBRARIES := libutils
+LOCAL_MODULE := libjustshoot_shim
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
