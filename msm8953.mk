@@ -31,6 +31,7 @@ PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
     android.hardware.audio.service \
+    audio.primary.msm8953 \
     android.hardware.audio.effect@4.0-impl \
     android.hardware.audio.effect@2.0-service \
     audiod \
